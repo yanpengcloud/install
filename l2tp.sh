@@ -5,9 +5,10 @@ function show_menu() {
     clear
     echo "============================="
     echo " L2TP VPN 管理菜单"
+    echo " QQ群：609972590"
     echo "============================="
-    echo "1. 安装 L2TP VPN"
-    echo "2. 卸载 L2TP VPN"
+    echo "1. 安装 L2TP "
+    echo "2. 卸载 L2TP "
     echo "3. 查看 VPN 配置"
     echo "4. 退出菜单"
     echo "============================="
