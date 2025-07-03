@@ -20,7 +20,7 @@ while true; do
     
     case $choice in
         1)
-            echo -e "\n\033[33m正在安装 L2TP VPN (需要root权限)...\033[0m"
+            echo -e "\n\033[33m正在安装 L2TP (需要root权限)...\033[0m"
             if bash <(curl -sL https://raw.githubusercontent.com/yanpengcloud/scoks/main/l2tp.sh); then
                 echo -e "\n\033[32m安装成功！配置已保存到 l2tp.txt\033[0m"
             else
@@ -28,7 +28,7 @@ while true; do
             fi
             ;;
         2)
-            echo -e "\n\033[33m正在卸载 L2TP VPN (需要root权限)...\033[0m"
+            echo -e "\n\033[33m正在卸载 L2TP (需要root权限)...\033[0m"
             if bash <(curl -sL https://raw.githubusercontent.com/yanpengcloud/scoks/main/l2tpxz.sh); then
                 echo -e "\n\033[32m卸载完成！\033[0m"
             else
@@ -36,7 +36,7 @@ while true; do
             fi
             ;;
         3)
-            echo -e "\n\033[36m========== VPN 配置信息 ==========\033[0m"
+            echo -e "\n\033[36m==========  配置信息 ==========\033[0m"
             if [ -f "l2tp.txt" ]; then
                 cat l2tp.txt
                 echo -e "\033[36m==================================\033[0m"
