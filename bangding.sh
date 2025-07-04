@@ -6,8 +6,8 @@
 # 绑定IP脚本URL
 BIND_URL="https://raw.gitcode.com/2401_89691644/socks5/raw/main/bind.sh"
 # Socks5相关URL
-SK5_BIN_URL="https://github.com/55620/bot/raw/refs/heads/main/bangdingip/sk5"
-SK5_SH_URL="https://github.com/55620/bot/raw/refs/heads/main/bangdingip/sk5.sh"
+SK5_BIN_URL="https://lfs-cdn.gitcode.com/lfs-objects/4b/ed/bb1fa52a5647fe6a2587c0ee0a2834298f699e8ae6e9ee66ba985c602824?certificate=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQcm9qZWN0UGF0aCI6IjI0MDFfODk2OTE2NDQvc29ja3M1IiwiT2lkIjoiNGJlZGJiMWZhNTJhNTY0N2ZlNmEyNTg3YzBlZTBhMjgzNDI5OGY2OTllOGFlNmU5ZWU2NmJhOTg1YzYwMjgyNCIsIlVzZXJOYW1lIjoiMjQwMV84OTY5MTY0NCIsIlJlYWxVc2VyTmFtZSI6IjI0MDFfODk2OTE2NDQiLCJPcGVyYXRpb24iOiJkb3dubG9hZCIsIlByb2plY3RJRCI6MCwiUmVwb1R5cGUiOjAsIlNpemUiOjAsIlRpbWUiOjE3NTE2MTkxMzMsImV4cCI6MTc1MTYyMjczMywiaXNzIjoibGZzLXN2ciJ9.ojF0LRsoBM3BEu8M-1QvRZOD8mOCaMAL97b-LtFY7jo&username=2401_89691644&auth_key=1751619133-59b441d585f64a9db76e5ced00f5eb85-0-9d3345b284ac0fce5edb3d24437a660157f67d809bbfe1fa2a87c49730af155b&filename=sk5"
+SK5_SH_URL="https://raw.gitcode.com/2401_89691644/socks5/raw/main/sk5.sh"
 
 # 修复文件格式函数
 fix_file_format() {
